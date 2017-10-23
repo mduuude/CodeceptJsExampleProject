@@ -1,5 +1,5 @@
 # CodeceptJs Example Project
-Test facebook.com site with CodeceptJS/WebdriverIO technologies
+Test facebook.com site with CodeceptJS/WebdriverIO technologies for demonstration purposes
 
 ## Installation
 1. Install dependencies: 
