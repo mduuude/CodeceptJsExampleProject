@@ -9,6 +9,10 @@
   "author": "mduuude",
   "license": "ISC",
   "devDependencies": {
-    "codeceptjs-webdriverio": "^1.1.0"
+    "codeceptjs-webdriverio": "^1.1.0",
+    "faker": "^4.1.0",
+    "jshint": "^2.9.5",
+    "random-obj-prop": "^1.0.0",
+    "webdriverio": "^4.8.0"
   }
 }
