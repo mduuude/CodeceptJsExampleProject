@@ -1,17 +1,35 @@
 {
-  "tests": ".tests/*_test.js",
-  "timeout": 10000,
   "output": "./output",
   "helpers": {
     "WebDriverIO": {
-      "url": "http://localhost",
-      "browser": "chrome"
+      "url": "https://",
+      "browser": "chrome",
+      "windowSize": "1365x768",
+      "rootElement": "html",
+      "timeouts": {
+        "script": 5000,
+        "page load": 10000,
+        "implicit": 5000
+      }
+    },
+    "Wdio": {
+      "require": "./helpers/wdio_helper.js"
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps_file.js",
+    "basePage": "./pages/base.js",
+    "loginPage": "./pages/login.js",
+    "headerFragment": "./fragments/no_auth_header.js",
+    "footerFragment": "./fragments/no_auth_footer.js",
+    "testDataResourse": "./resources/test_data.js",
+    "mailResourse": "./resources/mail.js"
   },
-  "bootstrap": false,
   "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "tests/*_test.js",
+  "timeout": 10000,
   "name": "codeceptjs-github-project"
 }

@@ -2,9 +2,9 @@
   "name": "codeceptjs-github-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "selenium-standalone start",
+    "tests": "codeceptjs run"
   },
   "author": "mduuude",
   "license": "ISC",
