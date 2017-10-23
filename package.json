@@ -1,0 +1,14 @@
+{
+  "name": "codeceptjs-github-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mduuude",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs-webdriverio": "^1.1.0"
+  }
+}
