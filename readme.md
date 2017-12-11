@@ -8,8 +8,8 @@ npm install
 ```
 2. Install `selenium-standalone server`:
 ```
-npm install selenium-standalone@latest -g 
-selenium-standalone install
+[sudo] npm install selenium-standalone@latest -g 
+[sudo] selenium-standalone install
 ```
 
 ## Run 
